@@ -1,0 +1,63 @@
+#sketchToy {
+    background-color: #fc0a0a;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 300px;
+    width: 570px;
+    margin: 0 auto;
+    border-right: 55px solid #fc0a0a;
+    border-left: 55px solid #fc0a0a;
+    border-bottom: 350px solid #fc0a0a;
+    border-radius: 7px;
+}
+
+#heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+.body {
+    display: grid;
+    align-items: center;
+}
+
+.heading1 {
+    font-size: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    gap: 20px;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 0;
+    font-family: 'Satisfy';
+    color: goldenrod;
+}
+
+#screen {
+    height: 400px;
+    background-color: #D8D8D8;
+    border-radius: 25px;
+    box-shadow: inset 0px 0px 5px 3px rgba(0,0,0,0.71);
+
+}
+
+.dot {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 10px 25px;
+    border: 3px groove white;
+    border-color: white;
+}
+
+.controls {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
