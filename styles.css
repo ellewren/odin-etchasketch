@@ -1,12 +1,16 @@
 #sketchToy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #fc0a0a;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 300px;
-    width: 570px;
+    height: 625px;
+    width: 850px;
     margin: 0 auto;
-    border-right: 55px solid #fc0a0a;
-    border-left: 55px solid #fc0a0a;
-    border-bottom: 350px solid #fc0a0a;
+    /* border-right: 80px solid #fc0a0a;
+    border-left: 80px solid #fc0a0a; */
+    /* border-bottom: 350px solid #fc0a0a; */
     border-radius: 7px;
 }
 
@@ -37,7 +41,9 @@
 }
 
 #screen {
-    height: 400px;
+    display: flex;
+    height: 80%;
+    width: 80%;
     background-color: #D8D8D8;
     border-radius: 25px;
     box-shadow: inset 0px 0px 5px 3px rgba(0,0,0,0.71);
@@ -59,5 +65,13 @@
     margin-top: 25px;
     display: flex;
     flex-direction: row;
+    width: 99%;
     justify-content: space-between;
+}
+
+.border {
+    background-color: #fc0a0a;
+    /* height: 500px;
+    width: 500px; */
+
 }
